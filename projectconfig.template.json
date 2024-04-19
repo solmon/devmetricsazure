@@ -1,0 +1,20 @@
+{
+    "projectName": "<Git Project Name>",
+    "repositories": [
+        "Repository(1) for Analysis",
+        "Repository(2) for Analysis"
+    ],
+    "branches":[
+        "branches(target1)",
+        "branches(target2)",
+        "branches(target3)",
+        "branches(target4)"
+    ],
+    "users" : [
+
+    ],
+    "filter": {
+        "startdate": "2024-03-01",
+        "enddate": null
+    }
+}
