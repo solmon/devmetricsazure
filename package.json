@@ -1,0 +1,29 @@
+{
+  "name": "devmetricsazure",
+  "version": "1.0.0",
+  "description": "Developer Metrics from AzureDevOps",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/main.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "Metrics",
+    "AzureDevOpd"
+  ],
+  "contributors": [
+    "solmon <solmon@gmail.com>"
+  ],
+  "author": "solmon",
+  "license": "MIT",
+  "dependencies": {
+    "azure-devops-node-api": "^13.0.0",
+    "csv-writer":"^1.6.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts-strictest-esm": "^18.12.1",
+    "@types/node": "20.12.7",
+    "typescript": "5.4.5",
+    "ts-node": "10.9.2"
+  }
+}

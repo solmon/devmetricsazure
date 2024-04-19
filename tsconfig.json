@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules", "**/*.spec.ts"],
+    "ts-node": {
+        "esm": true // «———— enabling ESM for ts-node   
+    } 
+}
